@@ -1,0 +1,324 @@
+
+/************************************ cotiza **********************************/
+
+#cotiza {
+    width: 100%;
+	height: 665px;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#simulador {
+    display: flex;
+}
+#titulo {
+    margin-left: 29%;
+    color:#052044;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+#formulario {
+    width: 700px;
+    height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+#items{
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    text-align: justify;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+
+    }
+
+ /******************************** primer label ******************************/
+    #tipo {
+        width: 100%;
+        height: 125px;
+        background-color: transparent;
+        color: #052044;
+
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    #tipo_prestamo {
+        width: 500px;
+        height: 40px;
+        color: #052044;
+    }
+/**********************************segundo label *********************************/
+#input {
+    width: 100%;
+    height: 125px;
+    background-color: transparent;
+    color: #052044;
+
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#montoinput {
+    width: 495px;
+    height: 35px;
+    color: #052044;
+}
+/**********************************tercer label *********************************/
+#meses {
+    width: 100%;
+    height: 125px;
+    background-color: transparent;
+    color: #052044;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#cuotas {
+    width: 500px;
+    height: 40px;
+    color: #052044;
+}
+/*********************************** fin form ******************************/
+/*********************************** boton cotizador ************************/
+
+#botonera {
+    text-align: start;
+}
+#boton_cotiza {
+    width: 70px;
+    height: 40px;
+    background-color: #052044;
+    color: #ffffff;
+    border: 0px;
+
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#boton_cotiza:hover {
+
+    background-color: #ffffff;
+    color: #052044;
+    border-color: #052044;
+    border: 1px solid;
+}
+/****************************** fin cotizador ************************************/
+/****************************** resultado cotizador *********************************/
+#resultado {
+    display: none;
+    width: 900px;
+    height: 500px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+#valorcuota {
+    display: none;
+    float:left ;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid #052044 ;
+    border-radius: 5px 20px;
+	padding: 20px;
+    line-height: 30px;
+
+}
+
+#intereses {
+    display: none;
+    float:right ;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    border: 2px solid #052044 ;
+    border-radius: 5px 20px;
+	padding: 20px;
+    line-height: 30px;
+
+}
+#barra {
+    width: 90%;
+    height: 30px;
+    background-color:#052044;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px 20px;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/******************************** boton volver **************************/
+#volver {
+    display: none;
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+}
+#refrescar {
+    width: 70px;
+    height: 40px;
+    background-color: #052044;
+    color: #ffffff;
+    border: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#refrescar:hover {
+
+    background-color: #ffffff;
+    color: #052044;
+    border-color: #052044;
+    border: 1px solid;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+}
+
+
+
+#chat {
+    width: 300px;
+    height: 350px;
+    background-color: antiquewhite;
+    border-radius: 10px ;
+    margin-top: 600px;
+    margin-left: 1400px;
+    border-radius: 3px;
+    position: sticky;
+    top: 20px;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    position:fixed;
+}
+
+#cabezachat {
+   width: 300px;
+   height: 50px;
+   background-color: #2BAD85;
+   text-align: center;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+#cabezachat img {
+   width: 45px;
+   margin-left: 10px;
+   margin-top: 5px;
+   background-color: #ffff;
+   float: left;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+}
+#cruz {
+   float: right;
+   margin-top: 10px;
+   margin-right: 10px;
+   font-size: 18px;
+   color: #ffff;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#cabezachat h3 {
+   color: #ffff;
+   float: left;
+   margin-left: 30px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;    
+}
+
+#texto1 ,#texto2 , #texto3 {
+   width: 75%;
+   height: 20px;
+   margin-left: 10px;
+   border: 0px;
+   clear: both;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 15px;
+   font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000;
+   background-color: #ffff;
+
+}
+#cajachat {
+   width: 90%;
+   height: 40px;
+   margin-top: 140px;
+   margin-left: 5%;
+   background-color: transparent;
+   display: flex;
+   justify-content: space-between;
+}
+
+#textochat {
+   width: 85%;
+   height: 40px;
+   border: 0px;
+}
+#enviartexto {
+   width: 30px;
+   height: 40px;
+   background-color: transparent;
+   border: 0px;
+   border: 0px;
+   fill-opacity: 50%;
+}
+#iconochat {
+   width: 30px;
+   margin: 0px;
+   border: 0px;
+   margin-top: 10px;
+
+}
+#iconochat:hover {
+   fill: thistle;
+   fill-opacity: 100%;
+}

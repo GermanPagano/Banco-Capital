@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Banco Capital</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex justify-content-between">
+                        <!-- Logo Area -->
+                        <div class="logo">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
+
+
+                        <!-- Top Contact Info -->
+                        <div class="top-contact-info d-flex align-items-center">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Calle Guido 170, Recoleta, Caba"><img src="img/core-img/placeholder.png" alt=""> <span> Argentina</span></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Contactanos para mas informacion"><img src="img/core-img/message.png" alt=""> <span>CapitalContacto@email.com</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="credit-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="creditNav">
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about.html">Nosotros</a></li>
+                                    <li><a href="services.html">Cotizador</a></li>
+                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="homebanking.html">Homebanking</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="contact">
+                             <a href="#"><img src="img/core-img/call2.png" alt="">+54 11 5230 902</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/13.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2>Simulador y Cotizador</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Cotizador</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breadcrumb Area End ##### -->
+
+    <!-- ##### Services Area Start ###### -->
+    <section class="services-area section-padding-100-0">
+        <div class="container">
+
+            <section id="cotiza" >
+
+                <div id="titulo"> <h2 style="color: #052044;">Simula tu prestamo</h2></div>
+                
+                    <div id="simulador">
+                        <form action="#" id="formulario">
+                
+                            <div id="items">
+                                
+                                <div id="tipo">
+                                    <label for="tipo_prestamo">Tipo de prestamo</label> 
+                
+                                    <select name="tipo_prestamo" id="tipo_prestamo" >
+                                        <option value selected>Selecciona el tipo de prestamo</option>
+                                        <option value="60">Personal</option>
+                                        <option value="80">Hipotecario</option>
+                
+                                    </select>
+                                </div>
+                
+                                <div id="input"> 
+                                    <label for="cantidad">Monto a simular</label>
+                                    <input type="number" id="montoinput" placeholder="(Hasta 1.000.000)" required >
+                                </div>
+                
+                                <div id="meses" >
+                                    <label for="meses">Plazo en meses</label>
+                                    <select name="meses" id="cuotas" >
+                                        <option selected value >Selecciona el plazo </option>
+                                        <option value="1" > 1 </option>
+                                        <option value="2" > 2 </option>
+                                        <option value="3" > 3 </option>
+                                        <option value="4" > 4 </option>
+                                        <option value="5" > 5 </option>
+                                        <option value="6" > 6 </option>
+                                        <option value="7" > 7 </option>
+                                        <option value="8" > 8 </option>
+                                        <option value="9" > 9 </option>
+                                        <option value="10" > 10 </option>
+                                        <option value="11" > 11 </option>
+                                        <option value="12" > 12 </option>
+                                        <option value="13" > 13 </option>
+                                        <option value="14" > 14 </option>
+                                        <option value="15" > 15 </option>
+                                        <option value="16" > 16 </option>
+                                        <option value="17" > 17 </option>
+                                        <option value="18" > 18 </option>
+                                        <option value="19" > 19 </option>
+                                        <option value="20" > 20 </option>
+                                        <option value="21" > 21 </option>
+                                        <option value="22" > 22 </option>
+                                        <option value="23" > 23 </option>
+                                        <option value="24" > 24 </option>
+                                        <option value="25" > 25 </option>
+                                        <option value="26" > 26 </option>
+                                        <option value="27" > 27 </option>
+                                        <option value="28" > 28 </option>
+                                        <option value="29" > 29 </option>
+                                        <option value="30" > 30 </option>
+                                        <option value="31" > 31 </option>
+                                        <option value="32" > 32 </option>
+                                        <option value="33" > 33 </option>
+                                        <option value="34" > 34 </option>
+                                        <option value="35" > 35 </option>
+                                        <option value="36" > 36 </option>
+                                        <option value="37" > 37 </option>
+                                        <option value="38" > 38 </option>
+                                        <option value="39" > 39 </option>
+                                        <option value="40" > 40 </option>
+                                        <option value="41" > 41 </option>
+                                        <option value="42" > 42 </option>
+                                        <option value="43" > 43 </option>
+                                        <option value="44" > 44 </option>
+                                        <option value="45" > 45 </option>
+                                        <option value="46" > 46 </option>
+                                        <option value="47" > 47 </option>
+                                        <option value="48" > 48 </option>
+                                        <option value="49" > 49 </option>
+                                        <option value="50" > 50 </option>
+                                        <option value="51" > 51 </option>
+                                        <option value="52" > 52 </option>
+                                        <option value="53" > 53 </option>
+                                        <option value="54" > 54 </option>
+                                        <option value="55" > 55 </option>
+                                        <option value="56" > 56 </option>
+                                        <option value="57" > 57 </option>
+                                        <option value="58" > 58 </option>
+                                        <option value="59" > 59 </option>
+                                        <option value="60" > 60 </option>
+                                    </select>
+                                </div>
+                            </div>
+                
+                            <div id="botonera">
+                                <button type="button" id="boton_cotiza" onclick="cotizador();">Cotiza</button>
+                
+                                <div id="terminos"></div>
+                
+                            </div>
+                        </form>
+                
+                    </div>
+                                            <!-- resultado cotizador -->
+                                            <div id="resultado">
+                                                <div id="valorcuota">
+                                                    <div id="barra"> <h4 style="color: white;">Valor de las cuotas</h4></div>
+                                                    <ul>
+                                                        <li id="cuotapura">Cuota + Intereses:</li>
+                                                        <hr>
+                                                        <li id="iva">I.V.A:</li>
+                                                        <hr>
+                                                        <li id="gastos">Gastos y seguros :</li>
+                                                        <hr>
+                                                        <li id="cuotatotal">Valor total :</li>
+                                                        <hr>
+                                                    </ul>
+                                                </div>
+                                                <div id="intereses">
+                                                    <div id="barra"><h4 style="color: white;">Costos y Tasas</h4></div>
+                                                    <ul>
+                                                        <li id="tasaanual">TASA:</li>
+                                                        <hr>
+                                                        <li id="cft">CFT:</li>
+                                                        <hr>
+                                                        <li id="deuda"> deuda total</li>
+                                                        <hr>
+                                                    </ul>
+                                                </div>
+                                                <div id="volver">
+                                                    <button type="button" id="refrescar" onclick="refrescar()"> volver</button>
+                                                </div>
+                
+                                            </div>
+                </section>
+
+
+        </div>
+    </section>
+    <!-- ##### Services Area End ###### -->
+
+    <!-- ##### Special Feature Area Start ###### -->
+    <section class="special-feature-area d-flex flex-wrap">
+        <!-- Special Feature Content -->
+        <div class="special-feature-content section-padding-100">
+            <div class="feature-text">
+                <!-- Section Heading -->
+                <div class="section-heading white mb-50">
+                    <div class="line"></div>
+                    <p>Facil y con requisitos minimos</p>
+                    <h2>Tu prestamo personal</h2>
+                </div>
+                <h6>Obtene un prestamo personal para adquirir eso que tanto deseas, accesible y con las tasas mas bajas.</h6>
+                <a href="#cotiza" class="btn credit-btn btn-2 box-shadow">Simulá</a>
+            </div>
+        </div>
+        <!-- Special Feature Thumbnail -->
+        <div class="special-feature-thumbnail bg-img jarallax" style="background-image: url(img/bg-img/20.jpg);"></div>
+    </section>
+    <!-- ##### Special Feature Area End ###### -->
+
+    <!-- ##### Special Feature Area Start ###### -->
+    <section class="special-feature-area style-2 d-flex flex-wrap">
+        <!-- Special Feature Thumbnail -->
+        <div class="special-feature-thumbnail bg-img jarallax" style="background-image: url(img/bg-img/21.jpg);"></div>
+        <!-- Special Feature Content -->
+        <div class="special-feature-content section-padding-100">
+            <div class="feature-text">
+                <!-- Section Heading -->
+                <div class="section-heading white mb-50">
+                    <div class="line"></div>
+                    <p>La casa de tus sueños</p>
+                    <h2>Hipotecario</h2>
+                </div>
+                <h6>Nuestro prestamo hipotecario es el mas conveniente del mercado y con los requisitos mas flexibles. Calcula el valor de tu cuota estes donde estes.</h6>
+                <a href="#cotiza" class="btn credit-btn box-shadow">Simulá</a>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Special Feature Area End ###### -->
+
+    <!-- ##### FAQ Area Start ###### -->
+    <section class="credit-faq-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- FAQ Area -->
+                <div class="col-12 col-lg-6">
+
+                    <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
+                        <!-- single accordian area -->
+                        <div class="panel single-accordion" >
+                            <h6><a role="button" class="" aria-expanded="true" aria-controls="collapseOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Dolar Oficial
+                                    <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                    <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a></h6>
+                            <div id="collapseOne" class="accordion-content collapse show" >
+                                <!-- aca va el dolar oficial -->
+                            </div>
+                        </div>
+                        <!-- single accordian area -->
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" class="collapsed" aria-expanded="true" aria-controls="collapseTwo" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">Dolar Solidario
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                        </a>
+                            </h6>
+                            <div id="collapseTwo" class="accordion-content collapse">
+                                <!-- aca va el dolar solidario-->
+                            </div>
+                        </div>
+                        <!-- single accordian area -->
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" aria-expanded="true" aria-controls="collapseThree" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">Dolar contado con liquidación
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                            </h6>
+                            <div id="collapseThree" class="accordion-content collapse">
+                                <!-- daca va el dolar ccl-->
+                                            </div>
+                        </div>
+
+                        <!-- single accordian area -->
+                        <div class="panel single-accordion">
+                            <h6>
+                                <a role="button" aria-expanded="true" aria-controls="collapseFour" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseFour">Bitcoin (Satoshi)
+                                        <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    </a>
+                            </h6>
+                            <div id="collapseFour" class="accordion-content collapse">
+
+
+                                <!-- aca va el dolar blue-->
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Add Area -->
+                <div class="col-12 col-md-6">
+                    <div class="add-area mb-100">
+                        <a href="#"><img src="img/bg-img/add2.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### FAQ Area End ###### -->
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Area -->
+        <div class="copywrite-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copywrite-content d-flex flex-wrap justify-content-between align-items-center">
+
+
+                            <!-- Copywrite Text -->
+                             <p class="copywrite-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Desarrollado por German Pagano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-3.6.0js -->
+    <script src="js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Cotizador js-->
+    <script src="js/cotizador.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- logger -->
+    <script src="js/loggin.js"></script>
+    <!-- api dolar -->
+    <script src="js/api.js"></script>
+</body>
+
+</html>
